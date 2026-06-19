@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>SmartControls</id>
+        <version>1.0.1</version>
+        <authors>João Costa</authors>
+        <owners>João Costa</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Modern Windows Forms control library with rounded corners, validation, and smooth animations. Includes RoundedButton, RoundedPanel, and SmartTextBox with 160+ built-in icons and real-time validation.</description>
+        <projectUrl>https://github.com/joao-a-costa/smart-controls</projectUrl>
+        <readme>README.md</readme>
+        <tags>windows-forms controls ui validation icons</tags>
+        <dependencies>
+            <group targetFramework=".NETFramework4.7.2">
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="bin\Release\RoudedButton.dll" target="lib\net472" />
+        <file src="README.md" target="" />
+    </files>
+</package>
